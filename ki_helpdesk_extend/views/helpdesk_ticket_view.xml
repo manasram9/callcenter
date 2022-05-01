@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+        <function model="ir.model.fields" name="formbuilder_whitelist">
+            <value>helpdesk.ticket</value>
+            <value eval="['x_studio_serial_no', 'x_studio_field_w3gK7', 'helpdesk_portal_id', 'x_studio_model_name', 'user_id', 'team_id', 'created_by_user_id', 'ticket_type_id']"/>
+        </function>
+<!--        <record id="helpdesk_ticket_view_form_inherit_" model="ir.ui.view">-->
+<!--            <field name="name">helpdesk.ticket.form</field>-->
+<!--            <field name="model">helpdesk.ticket</field>-->
+<!--            <field name="inherit_id" ref="helpdesk.helpdesk_ticket_view_form"/>-->
+<!--            <field name="arch" type="xml">-->
+<!--                <xpath expr="//field[@name='sla_id']" position="after">-->
+<!--                    <field name="x_studio_field_w3gK7"/>-->
+<!--                    <field name="x_studio_serial_no"/>-->
+<!--                    <field name="x_studio_model_name"/>-->
+<!--                    <field name="x_studio_opendays"/>-->
+<!--                </xpath>-->
+<!--            </field>-->
+<!--        </record>-->
+    </data>
+</odoo>
